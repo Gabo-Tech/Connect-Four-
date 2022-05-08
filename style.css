@@ -113,6 +113,9 @@
   .status {
     display: block;
     font-size: 20px;
+    color: #fff;
+    padding: 1rem;
+    font-weight: 900;
   }
   
   /* Util CSS */
