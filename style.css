@@ -60,6 +60,7 @@
   
   .cell:not(.row-top).yellow.win {
     background: yellow;
+
   }
   
   .cell.row-top {
