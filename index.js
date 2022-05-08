@@ -124,7 +124,7 @@ const checkStatusOfGame = (cell) => {
     const cellToCheck = rows[rowToCheck][colToCheck];
     if (getColorOfCell(cellToCheck) === color) {
       winningCells.push(cellToCheck);
-      rowToCheck++;
+      rowToCheck++; 
     } else {
       break;
     }
@@ -162,7 +162,7 @@ const checkStatusOfGame = (cell) => {
   if (isWinningCombo) return;
     
   // Check diagonally \
-  winningCells = [cell];c
+  winningCells = [cell];
   rowToCheck = rowIndex - 1;
   colToCheck = colIndex - 1;
   while (colToCheck >= 0 && rowToCheck >= 0) {
