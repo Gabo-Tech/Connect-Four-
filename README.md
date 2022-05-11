@@ -1,6 +1,8 @@
 # Connect-Four
 ![Web Mockup](Mockup.png) 
 
+![Web Mockup1](Mockup1.png) 
+
 
 
 Well this is as simple as Another Computer Connect-Four Open Sourced Game. 
